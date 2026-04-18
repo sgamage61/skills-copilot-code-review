@@ -664,3 +664,14 @@ footer {
 #logout-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+.announcement-banner {
+  /* TODO: Replace hardcoded #4caf50 with var(--success) to match the design system */
+  background-color: #4caf50;
+  /* TODO: Replace 'white' with var(--primary-text) to use the CSS variable system */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+/* TODO: Add a trailing newline at end of file (POSIX convention) */
